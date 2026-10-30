@@ -9,7 +9,7 @@
                     placeholder="Enter your email">
             </div>
 
-            
+
             <div class="w-full max-w-md flex justify-start">
                 <RouterLink to="/login" class="text-sm font-medium text-blue-600 hover:text-blue-500">
                     Remember password?

@@ -11,10 +11,10 @@
                     class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm text-gray-900"
                     placeholder="Repeat password">
             </div>
-            
+
             <div class="w-full max-w-md flex justify-start">
                 <RouterLink to="/login" class="text-sm font-medium text-blue-600 hover:text-blue-500">
-                   Go back to login
+                    Go back to login
                 </RouterLink>
             </div>
 
@@ -29,11 +29,9 @@
 </template>
 
 <script>
-    export default {
-        name:"Resetpassword"
-    }
+export default {
+    name: "Resetpassword"
+}
 </script>
 
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>
