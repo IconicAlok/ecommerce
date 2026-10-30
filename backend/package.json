@@ -16,6 +16,8 @@
     "vuex": "^4.0.2"
   },
   "devDependencies": {
+    "@headlessui/vue": "^1.7.23",
+    "@heroicons/vue": "^2.2.0",
     "@vitejs/plugin-vue": "^6.0.8",
     "vite": "^8.2.2",
     "vite-plugin-vue-devtools": "^8.2.1"
