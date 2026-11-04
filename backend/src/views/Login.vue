@@ -58,6 +58,29 @@
 import GuestLayout from '../components/GuestLayout.vue';
 import { RouterLink } from 'vue-router';
 
+// let loading = ref(false)
+// let errorMsg = ref("")
+
+const user = {
+    email: '',
+    password: '',
+    remember : false
+
+}
+
+function login() {
+    loading.value = true,
+    store.dispatch = ( "login", user )
+        .then(()=>{
+            loading.value = false
+            router.push ({name:'app.dashborad'})
+        })
+        .catch(({response})=>{
+            loading.value = false
+            errorMsg.value = response.data.message
+        })
+}
+
 
 </script>
 

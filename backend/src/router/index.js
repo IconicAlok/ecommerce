@@ -32,11 +32,6 @@ const routes = [
         ]
     },
     {
-        path: '/dashboard',
-        name: 'dashboard',
-        component: Dashboard
-    },
-    {
         path: '/login',
         name: 'login',
         component: Login

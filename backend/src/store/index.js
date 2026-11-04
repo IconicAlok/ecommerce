@@ -1,9 +1,11 @@
 import { createStore } from "vuex";
 
+import * as mutations from './mutations.js'
+
 const store = createStore({
     state:{
         user:{
-            token: null,
+            token: sessionStorage.getItem('TOKEN'),
             date:{},
         }
     },
