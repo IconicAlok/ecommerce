@@ -1,6 +1,8 @@
 import { createStore } from "vuex";
+import axios from 'axios'
 
-import * as mutations from './mutations.js'
+import * as actions from './actions'
+import * as mutations from './mutations'
 
 const store = createStore({
     state:{
@@ -10,8 +12,8 @@ const store = createStore({
         }
     },
     getters:{},
-    actions:{},
-    mutations:{},
+    actions,
+    mutations,
 })
 
 export default store;
